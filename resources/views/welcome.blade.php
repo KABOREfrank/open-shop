@@ -11,12 +11,18 @@
            </div>
         </div>
     </section>
-    
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <h1 class="text-center mt-4">Produits nouveaux produits!</h1>
                 <hr>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <h1> bonjour ma classe</h1>
             </div>
         </div>
 
