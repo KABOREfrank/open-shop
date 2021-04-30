@@ -15,7 +15,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="text-center mt-4">Produits nouveaux produits!</h1>
+                <h1 class="text-center mt-4">Produits nouveaux !</h1>
                 <hr>
             </div>
         </div>
