@@ -22,11 +22,10 @@ class ProduitFactory extends Factory
     public function definition()
     {
         return [
-            "designation" => $this->faker->unique()->realText(20) ,
-            "prix" => $this->faker->numberBetween(1000, 1000000),
-            "description"=> $this->faker->realText(200),
-            "quantite" => $this->faker->numberBetween(50, 5000),
-            
+            'designation' => $this->faker->unique()->realText(20),
+            'prix' => $this->faker->numberBetween(1000, 1000000),
+            'description' => $this->faker->realText(200),
+            'quantite' => $this->faker->numberBetween(50, 5000),
         ];
     }
 }
