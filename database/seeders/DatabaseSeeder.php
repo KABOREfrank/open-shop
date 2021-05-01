@@ -18,6 +18,6 @@ class DatabaseSeeder extends Seeder
         CategorySeeder::class,
            RoleSeeder::class,
     ]);
-        \App\Models\User::factory(10)->create();
+       // \App\Models\User::factory(10)->create();
     }
 }

@@ -14,21 +14,22 @@ class CategorySeeder extends Seeder
      */
     public function run()
     {
-        Category::create([
-            'libelle'=> "Materiels Electroniques",
-            'description' => "Ceci est la description de materiels electroniques",
-        ]);
-        Category::create([
-            'libelle'=> " Cosmetiques",
-            'description' => "Ceci est la description de comsmetiques",
-        ]);
+        // Category::create([
+        //     'libelle'=> "Materiels Electroniques",
+        //     'description' => "Ceci est la description de materiels electroniques",
+        // ]);
+        // Category::create([
+        //     'libelle'=> " Cosmetiques",
+        //     'description' => "Ceci est la description de comsmetiques",
+        // ]);
 
-        Category::create([
-            'libelle'=> " Meubles",
-            'description' => "Ceci est la description de meubles",
-        ]);
+        // Category::create([
+        //     'libelle'=> " Meubles",
+        //     'description' => "Ceci est la description de meubles",
+        // ]);
         
-        
+        Category::factory(500)->create();
+
         
     }
 }
